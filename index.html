@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Porsche — The Art of Driving | Editorial Automotive Experience</title>
+  <meta name="description" content="An editorial automotive digital experience inspired by Porsche design, motorsport heritage, precision engineering, and understated luxury.">
+  <meta name="keywords" content="Porsche, 911, Taycan, 718 Cayman, Panamera, Cayenne, Macan, Automotive Design, Motorsport Heritage, German Engineering">
+  <meta name="author" content="College Web Designing Workshop">
+
+  <!-- Open Graph Meta Tags for Editorial Sharing -->
+  <meta property="og:title" content="Porsche — The Art of Driving">
+  <meta property="og:description" content="Where precision engineering meets timeless design. Discover the spirit of Porsche.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero/hero-911.jpg">
+
+  <!-- Favicon (Authentic Porsche Crest) -->
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/images/icons/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/icons/porsche-crest.png">
+
+  <!-- Google Fonts: Inter & Montserrat for Editorial Automotive Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="site-body">
+
+  <!-- ACCESSIBILITY: SKIP NAVIGATION LINK -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- SECTION A: GLOBAL NAVIGATION -->
+  <header class="site-header" id="header" role="banner">
+    <div class="nav-container">
+      <!-- Porsche Wordmark Brand -->
+      <a href="#hero" class="brand-link" aria-label="Porsche — The Art of Driving Homepage">
+        <img src="assets/images/icons/porsche-crest.png" alt="Porsche Crest" class="brand-crest-img">
+        <span class="brand-wordmark">PORSCHE</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-nav" id="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a href="#hero" class="nav-link active" role="menuitem">Home</a></li>
+          <li role="none"><a href="#models" class="nav-link" role="menuitem">Models</a></li>
+          <li role="none"><a href="#philosophy" class="nav-link" role="menuitem">Philosophy</a></li>
+          <li role="none"><a href="#heritage" class="nav-link" role="menuitem">Our Heritage</a></li>
+          <li role="none"><a href="#innovation" class="nav-link" role="menuitem">Motorsport & Tech</a></li>
+          <li role="none"><a href="#explorer" class="nav-link" role="menuitem">Explorer</a></li>
+          <li role="none"><a href="#gallery" class="nav-link" role="menuitem">Gallery</a></li>
+          <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Quick CTA & Mobile Hamburger Toggle -->
+      <div class="header-actions">
+        <a href="#explorer" class="btn btn-nav-cta">
+          <span>Configure</span>
+          <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Toggle navigation menu">
+          <span class="menu-bar bar-1" aria-hidden="true"></span>
+          <span class="menu-bar bar-2" aria-hidden="true"></span>
+          <span class="menu-bar bar-3" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
+      <div class="mobile-drawer-inner">
+        <div class="mobile-drawer-header">
+          <div class="mobile-drawer-brand-group">
+            <img src="assets/images/icons/porsche-crest.png" alt="Porsche Crest" class="mobile-crest-img">
+            <span class="mobile-drawer-brand">PORSCHE</span>
+          </div>
+          <button type="button" class="drawer-close-btn" id="drawer-close" aria-label="Close mobile navigation">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#models" class="mobile-nav-link">Models</a></li>
+          <li><a href="#philosophy" class="mobile-nav-link">Design Philosophy</a></li>
+          <li><a href="#heritage" class="mobile-nav-link">Our Heritage</a></li>
+          <li><a href="#innovation" class="mobile-nav-link">Motorsport & Innovation</a></li>
+          <li><a href="#explorer" class="mobile-nav-link">Interactive Explorer</a></li>
+          <li><a href="#gallery" class="mobile-nav-link">Image Gallery</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Connect & Inquire</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+          <a href="#explorer" class="btn btn-primary btn-block mobile-drawer-cta">Explore Model Range</a>
+          <p class="mobile-drawer-tagline">Engineered for emotion. Driven by dreams.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN EDITORIAL CONTENT -->
+  <main id="main-content">
+
+    <!-- SECTION B: CINEMATIC HERO -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-backdrop">
+        <img src="assets/images/hero/hero-911.jpg" alt="Porsche 911 sports car photographed with dramatic editorial lighting" class="hero-image" loading="eager" fetchpriority="high">
+        <div class="hero-overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content container">
+        <div class="hero-badge reveal-fade">
+          <img src="assets/images/icons/porsche-crest.png" alt="" class="hero-crest-icon" aria-hidden="true">
+          <span class="badge-text">PORSCHE BRAND EXPERIENCE &mdash; EST. 1948</span>
+        </div>
+
+        <h1 class="hero-title reveal-up" id="hero-heading">
+          ENGINEERED<br>
+          <span class="hero-title-accent">FOR EMOTION.</span>
+        </h1>
+
+        <p class="hero-subtitle reveal-up">
+          Where precision engineering meets timeless design. Discover the spirit of Porsche.
+        </p>
+
+        <div class="hero-actions reveal-up">
+          <a href="#models" class="btn btn-primary">
+            <span>Explore the Models</span>
+            <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#heritage" class="btn btn-secondary">
+            <span>Discover the Legacy</span>
+          </a>
+        </div>
+
+        <!-- Hero Verified Performance Metrics -->
+        <div class="hero-metrics-bar reveal-up">
+          <div class="metric-item">
+            <span class="metric-value">3.0 <abbr title="seconds" class="metric-unit">s</abbr></span>
+            <span class="metric-label">0–100 km/h (911 Carrera GTS)</span>
+          </div>
+          <div class="metric-divider" aria-hidden="true"></div>
+          <div class="metric-item">
+            <span class="metric-value">312 <abbr title="kilometers per hour" class="metric-unit">km/h</abbr></span>
+            <span class="metric-label">Top Track Velocity</span>
+          </div>
+          <div class="metric-divider" aria-hidden="true"></div>
+          <div class="metric-item">
+            <span class="metric-value">398 <abbr title="kilowatts" class="metric-unit">kW</abbr> / 541 <abbr title="metric horsepower" class="metric-unit">PS</abbr></span>
+            <span class="metric-label">T-Hybrid System Power</span>
+          </div>
+          <div class="metric-divider" aria-hidden="true"></div>
+          <div class="metric-item">
+            <span class="metric-value">19 <abbr title="Victories" class="metric-unit">Wins</abbr></span>
+            <span class="metric-label">24 Hours of Le Mans Overall</span>
+          </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <a href="#models" class="hero-scroll-indicator" aria-label="Scroll to featured models">
+          <span class="scroll-text">Scroll to explore</span>
+          <div class="scroll-mouse" aria-hidden="true">
+            <span class="scroll-wheel"></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION C: FEATURED MODELS -->
+    <section class="section models-section light-theme" id="models" aria-labelledby="models-heading">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <header class="section-header">
+          <span class="section-label">THE CURRENT LINEUP</span>
+          <h2 class="section-title" id="models-heading">A SPECTRUM OF UNCOMPROMISING PERFORMANCE.</h2>
+          <p class="section-intro">
+            Every model carrying the Porsche crest embodies racing DNA, mathematical balance, and pure driving tactile joy. Explore our defining sports car families.
+          </p>
+
+          <!-- Interactive Filter Tabs -->
+          <div class="models-filter-bar" role="tablist" aria-label="Model Category Filters">
+            <button type="button" class="filter-btn active" role="tab" aria-selected="true" data-filter="all">All Models</button>
+            <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="sports">Sports Cars</button>
+            <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="electric">E-Performance</button>
+            <button type="button" class="filter-btn" role="tab" aria-selected="false" data-filter="suv">SUV & Gran Turismo</button>
+          </div>
+        </header>
+
+        <!-- Asymmetric Editorial Grid -->
+        <div class="models-grid" id="models-container">
+          
+          <!-- FEATURED SPOTLIGHT CARD: 911 CARRERA GTS (Large Span) -->
+          <article class="model-card card-spotlight reveal-up" data-category="sports">
+            <div class="card-media">
+              <img src="assets/images/models/model-911.jpg" alt="Porsche 911 Carrera GTS sports coupe" class="card-image" loading="lazy">
+              <div class="card-tag">ICON & BENCHMARK</div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <div class="card-meta-left">
+                  <img src="assets/images/icons/porsche-crest.png" alt="" class="card-crest-mini" aria-hidden="true">
+                  <span class="model-category">SPORTS CAR &bull; REAR-ENGINE</span>
+                </div>
+                <span class="model-version">992.2 GENERATION</span>
+              </div>
+              <h3 class="model-name">Porsche 911 Carrera GTS</h3>
+              <p class="model-desc">
+                The quintessential sports car evolved. Equipped with the innovative T-Hybrid powertrain, delivering instantaneous throttle response, razor-sharp rear-axle steering, and the unmistakable silhouette that has defined automotive perfection for six decades.
+              </p>
+              
+              <!-- Verified Specifications Pill -->
+              <div class="model-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">Acceleration 0–100 km/h</span>
+                  <span class="spec-val">3.0 s</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">System Output</span>
+                  <span class="spec-val">398 kW (541 PS)</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Top Track Speed</span>
+                  <span class="spec-val">312 km/h</span>
+                </div>
+              </div>
+
+              <div class="card-footer">
+                <button type="button" class="btn btn-outline select-explorer-btn" data-model-id="911">
+                  <span>Explore In Showroom</span>
+                  <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <span class="verified-source">Official Porsche AG Technical Data (2025)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SUPPORTING MODEL 1: TAYCAN TURBO S -->
+          <article class="model-card reveal-up" data-category="electric">
+            <div class="card-media">
+              <img src="assets/images/models/model-taycan.jpg" alt="Porsche Taycan Turbo S all-electric sports saloon" class="card-image" loading="lazy">
+              <div class="card-tag tag-electric">ALL-ELECTRIC 800V</div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="model-category">E-PERFORMANCE SALOON</span>
+                <span class="model-version">DUAL PERMANENT MAGNET</span>
+              </div>
+              <h3 class="model-name">Porsche Taycan Turbo S</h3>
+              <p class="model-desc">
+                Electrification distilled into pure sports car dynamism. With an industry-leading 800-volt architecture, launch control overboost producing up to 700 kW (952 PS), and charging from 10% to 80% in approximately 18 minutes.
+              </p>
+              
+              <div class="model-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">0–100 km/h</span>
+                  <span class="spec-val">2.4 s</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Overboost Power</span>
+                  <span class="spec-val">700 kW (952 PS)</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">DC Max Charge</span>
+                  <span class="spec-val">320 kW</span>
+                </div>
+              </div>
+
+              <div class="card-footer">
+                <button type="button" class="btn btn-text select-explorer-btn" data-model-id="taycan">
+                  <span>Discover Taycan</span> &rarr;
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- SUPPORTING MODEL 2: 718 CAYMAN GT4 RS -->
+          <article class="model-card reveal-up" data-category="sports">
+            <div class="card-media">
+              <img src="assets/images/models/model-718.jpg" alt="Porsche 718 Cayman GT4 RS mid-engine sports car" class="card-image" loading="lazy">
+              <div class="card-tag">NATURALLY ASPIRATED</div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="model-category">MID-ENGINE PURIST</span>
+                <span class="model-version">9,000 RPM REDLINE</span>
+              </div>
+              <h3 class="model-name">Porsche 718 Cayman GT4 RS</h3>
+              <p class="model-desc">
+                An uncompromising driver's instrument engineered without concession. Powered by the 4.0-liter flat-six high-revving boxer engine sourced directly from the 911 GT3 cup car, with swan-neck rear wing and process air intakes behind the windows.
+              </p>
+              
+              <div class="model-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">0–100 km/h</span>
+                  <span class="spec-val">3.4 s</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Power</span>
+                  <span class="spec-val">368 kW (500 PS)</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Top Speed</span>
+                  <span class="spec-val">315 km/h</span>
+                </div>
+              </div>
+
+              <div class="card-footer">
+                <button type="button" class="btn btn-text select-explorer-btn" data-model-id="718">
+                  <span>Discover 718 GT4 RS</span> &rarr;
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- SUPPORTING MODEL 3: PANAMERA TURBO E-HYBRID -->
+          <article class="model-card reveal-up" data-category="suv">
+            <div class="card-media">
+              <img src="assets/images/models/model-panamera.jpg" alt="Porsche Panamera sports luxury saloon" class="card-image" loading="lazy">
+              <div class="card-tag">EXECUTIVE PERFORMANCE</div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="model-category">SPORTS SALOON &bull; HYBRID</span>
+                <span class="model-version">PORSCHE ACTIVE RIDE</span>
+              </div>
+              <h3 class="model-name">Porsche Panamera Turbo E-Hybrid</h3>
+              <p class="model-desc">
+                The perfect duality of high-speed long-distance luxury and sports saloon agility. Powered by a 4.0-liter twin-turbo V8 paired with a high-torque electric motor, equipped with revolutionary active suspension that virtually eliminates pitch and roll.
+              </p>
+              
+              <div class="model-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">0–100 km/h</span>
+                  <span class="spec-val">3.2 s</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Combined Power</span>
+                  <span class="spec-val">500 kW (680 PS)</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Max Torque</span>
+                  <span class="spec-val">930 Nm</span>
+                </div>
+              </div>
+
+              <div class="card-footer">
+                <button type="button" class="btn btn-text select-explorer-btn" data-model-id="panamera">
+                  <span>Discover Panamera</span> &rarr;
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- SUPPORTING MODEL 4: CAYENNE TURBO E-HYBRID -->
+          <article class="model-card reveal-up" data-category="suv">
+            <div class="card-media">
+              <img src="assets/images/models/model-cayenne.jpg" alt="Porsche Cayenne luxury SUV" class="card-image" loading="lazy">
+              <div class="card-tag">DYNAMIC LUXURY SUV</div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="model-category">PERFORMANCE SUV</span>
+                <span class="model-version">TWIN-TURBO V8 HYBRID</span>
+              </div>
+              <h3 class="model-name">Porsche Cayenne Turbo E-Hybrid</h3>
+              <p class="model-desc">
+                The most powerful Cayenne ever built. Blending all-terrain capability, spacious five-passenger comfort, and devastating track performance with 739 PS and adaptive air suspension with 2-chamber 2-valve technology.
+              </p>
+              
+              <div class="model-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">0–100 km/h</span>
+                  <span class="spec-val">3.7 s</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Combined Power</span>
+                  <span class="spec-val">544 kW (739 PS)</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Top Speed</span>
+                  <span class="spec-val">295 km/h</span>
+                </div>
+              </div>
+
+              <div class="card-footer">
+                <a href="#explorer" class="btn btn-text">
+                  <span>Explore Lineup</span> &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- SUPPORTING MODEL 5: MACAN TURBO ELECTRIC -->
+          <article class="model-card reveal-up" data-category="electric">
+            <div class="card-media">
+              <img src="assets/images/models/model-macan.jpg" alt="Porsche Macan Turbo Electric compact SUV" class="card-image" loading="lazy">
+              <div class="card-tag tag-electric">PREMIUM PLATFORM ELECTRIC</div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="model-category">COMPACT ELECTRIC SUV</span>
+                <span class="model-version">PPE ARCHITECTURE</span>
+              </div>
+              <h3 class="model-name">Porsche Macan Turbo Electric</h3>
+              <p class="model-desc">
+                The sports car among compact SUVs enters a progressive all-electric generation. Up to 470 kW (639 PS) overboost with Launch Control, rear-axle steering, and aerodynamic drag coefficient of 0.25 for unprecedented everyday efficiency.
+              </p>
+              
+              <div class="model-specs-grid">
+                <div class="spec-cell">
+                  <span class="spec-label">0–100 km/h</span>
+                  <span class="spec-val">3.3 s</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Overboost Power</span>
+                  <span class="spec-val">470 kW (639 PS)</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="spec-label">Battery Capacity</span>
+                  <span class="spec-val">100 kWh gross</span>
+                </div>
+              </div>
+
+              <div class="card-footer">
+                <button type="button" class="btn btn-text select-explorer-btn" data-model-id="macan">
+                  <span>Discover Macan</span> &rarr;
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION D: THE PORSCHE DESIGN PHILOSOPHY -->
+    <section class="section philosophy-section" id="philosophy" aria-labelledby="philosophy-heading">
+      <div class="container">
+        <div class="philosophy-layout">
+          
+          <!-- Editorial Text Column -->
+          <div class="philosophy-editorial reveal-up">
+            <span class="section-label">THE DESIGN PHILOSOPHY</span>
+            <h2 class="editorial-heading" id="philosophy-heading">FORM FOLLOWS FEELING.</h2>
+            
+            <p class="editorial-lead">
+              At Porsche, design is never decorative indulgence. Every curve, taper, and vent must earn its existence through thermodynamic necessity or emotional resonance.
+            </p>
+
+            <div class="philosophy-points">
+              <div class="philosophy-point">
+                <h3 class="point-title">The Unmistakable Flyline</h3>
+                <p class="point-body">
+                  From the very first 356 in 1948 to the latest 992, the gently sloping roofline&mdash;the Porsche flyline&mdash;instantly signals low aerodynamic resistance and rearward mass concentration. It is the visual DNA of Zuffenhausen.
+                </p>
+              </div>
+
+              <div class="philosophy-point">
+                <h3 class="point-title">Sculptural Functionalism</h3>
+                <p class="point-body">
+                  Broad rear shoulders anchor the car visually and physically over wide performance rubber. Air curtains around the front wheels calm turbulent wake, turning aesthetic muscularity into high-speed downforce.
+                </p>
+              </div>
+
+              <div class="philosophy-point">
+                <h3 class="point-title">Ergonomic Intuition</h3>
+                <p class="point-body">
+                  Inside, the driver remains the supreme focal point. The central rev counter or digital equivalent aligns directly along the driver’s natural sightline. The ignition switch remains situated on the left—a direct nod to the historic Le Mans running start.
+                </p>
+              </div>
+            </div>
+
+            <!-- Authentic Quote by F.A. Porsche -->
+            <blockquote class="philosophy-quote">
+              <p class="quote-text">&ldquo;A product that is coherent in form requires no embellishment; it is enhanced simply by its form.&rdquo;</p>
+              <footer class="quote-author">&mdash; Professor Ferdinand Alexander &ldquo;Butzi&rdquo; Porsche, Designer of the 911</footer>
+            </blockquote>
+
+            <!-- Editorial Tribute: The Crest of Stuttgart -->
+            <div class="philosophy-crest-tribute">
+              <img src="assets/images/icons/porsche-crest.png" alt="Official Porsche Crest Emblem" class="tribute-crest-img">
+              <div class="tribute-crest-content">
+                <span class="tribute-crest-badge">THE SEAL OF STUTTGART &bull; EST. 1952</span>
+                <h4 class="tribute-crest-title">Heraldry of Performance</h4>
+                <p class="tribute-crest-text">
+                  Designed in 1952 by Ferry Porsche and Franz Xaver Reimspieß, the Porsche Crest marries the historical coat of arms of the Free People’s State of Württemberg—the black and red state stripes and antler horns—with the rearing black steed of Stuttgart, honoring our unbroken roots in Zuffenhausen.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Editorial Imagery & Visual Composition -->
+          <div class="philosophy-visual reveal-fade">
+            <figure class="philosophy-figure">
+              <img src="assets/images/philosophy/philosophy-flyline.jpg" alt="Iconic sculpted rear flyline and aerodynamic muscular arch of a Porsche sports car" class="philosophy-img" loading="lazy">
+              <figcaption class="philosophy-caption">
+                <span class="caption-num">01 / PROPORTION</span>
+                <span class="caption-desc">Low hood, muscular fenders, and the unbroken flyline taper toward the rear.</span>
+              </figcaption>
+            </figure>
+
+            <div class="philosophy-stat-card">
+              <span class="stat-number">60+</span>
+              <span class="stat-desc">Years of continuous evolution of the iconic 911 profile without ever losing its original silhouette.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION E: HERITAGE AND HISTORY -->
+    <section class="section heritage-section dark-theme" id="heritage" aria-labelledby="heritage-heading">
+      <div class="container">
+        
+        <header class="section-header text-center">
+          <span class="section-label">MOTORSPORT & ENGINEERING ARCHIVE</span>
+          <h2 class="section-title text-light" id="heritage-heading">SEVENTY-SIX YEARS OF DARING TO LEAD.</h2>
+          <p class="section-intro text-muted">
+            From an Austrian sawmill workshop in 1948 to 19 outright Le Mans victories and the dawn of high-voltage electrification. Explore the pivotal milestones that forged the Porsche legend.
+          </p>
+        </header>
+
+        <!-- Interactive Heritage Component -->
+        <div class="heritage-interactive">
+          
+          <!-- Timeline Milestone Selectors -->
+          <div class="milestones-nav" role="tablist" aria-label="Porsche Historical Milestones">
+            <button type="button" class="milestone-btn active" role="tab" aria-selected="true" data-year="1948" id="tab-1948">
+              <span class="milestone-year">1948</span>
+              <span class="milestone-name">356 "No. 1"</span>
+            </button>
+            <button type="button" class="milestone-btn" role="tab" aria-selected="false" data-year="1963" id="tab-1963">
+              <span class="milestone-year">1963</span>
+              <span class="milestone-name">Type 901 (911)</span>
+            </button>
+            <button type="button" class="milestone-btn" role="tab" aria-selected="false" data-year="1970" id="tab-1970">
+              <span class="milestone-year">1970</span>
+              <span class="milestone-name">Le Mans 917 KH</span>
+            </button>
+            <button type="button" class="milestone-btn" role="tab" aria-selected="false" data-year="1986" id="tab-1986">
+              <span class="milestone-year">1986</span>
+              <span class="milestone-name">Supercar 959</span>
+            </button>
+            <button type="button" class="milestone-btn" role="tab" aria-selected="false" data-year="2019" id="tab-2019">
+              <span class="milestone-year">2019</span>
+              <span class="milestone-name">Taycan 800V</span>
+            </button>
+          </div>
+
+          <!-- Dynamic Milestone Display Card -->
+          <div class="milestone-display-panel" id="milestone-panel" role="tabpanel" aria-labelledby="tab-1948">
+            <div class="milestone-media">
+              <img src="assets/images/heritage/heritage-356.jpg" alt="1948 Porsche 356 No. 1 Roadster" class="milestone-image" id="milestone-img" loading="lazy">
+              <div class="milestone-media-overlay">
+                <span class="archive-tag" id="milestone-archive-tag">PORSCHE ARCHIV &bull; STUTTGART</span>
+              </div>
+            </div>
+
+            <div class="milestone-content">
+              <div class="milestone-badge-row">
+                <span class="milestone-pill" id="milestone-year-pill">1948</span>
+                <span class="milestone-category" id="milestone-cat">THE BIRTH OF THE BRAND</span>
+              </div>
+
+              <h3 class="milestone-title" id="milestone-title">Porsche 356 "No. 1" Roadster</h3>
+              
+              <blockquote class="milestone-quote" id="milestone-quote">
+                &ldquo;In the beginning I looked around and could not find quite the car I was dreaming of. So I decided to build it myself.&rdquo;
+                <span class="milestone-quote-by">&mdash; Ferry Porsche</span>
+              </blockquote>
+
+              <p class="milestone-text" id="milestone-text">
+                On June 8, 1948, the Porsche 356 &ldquo;No. 1&rdquo; Roadster received its general operating permit in Carinthia, Austria. Hand-beaten out of lightweight aluminum over a tubular spaceframe with a mid-mounted air-cooled flat-four engine, it weighed merely 585 kilograms. It established Porsche's founding mantra: performance achieved through agility and lightness rather than sheer mass.
+              </p>
+
+              <div class="milestone-highlight">
+                <span class="highlight-label">Historical Significance:</span>
+                <span class="highlight-val" id="milestone-significance">The very first sports car bearing the official Porsche nameplate.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION F: PERFORMANCE AND INNOVATION -->
+    <section class="section innovation-section dark-theme" id="innovation" aria-labelledby="innovation-heading">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-label">ENGINEERING PRECISION</span>
+          <h2 class="section-title text-light" id="innovation-heading">BORN ON THE TRACK. REFINED FOR THE ROAD.</h2>
+          <p class="section-intro text-muted">
+            Motorsport is Porsche’s ruthless laboratory. Every system in our road cars—from carbon-ceramic brakes to 800V fast-charging—originated under the brutal test of endurance racing.
+          </p>
+
+          <!-- Interactive Innovation Pillars Navigation -->
+          <div class="innovation-tabs-bar" role="tablist" aria-label="Innovation Disciplines">
+            <button type="button" class="inno-tab active" role="tab" aria-selected="true" data-inno="aero">Active Aerodynamics</button>
+            <button type="button" class="inno-tab" role="tab" aria-selected="false" data-inno="brakes">Ceramic Braking (PCCB)</button>
+            <button type="button" class="inno-tab" role="tab" aria-selected="false" data-inno="electric">800V E-Performance</button>
+            <button type="button" class="inno-tab" role="tab" aria-selected="false" data-inno="cockpit">Driver Architecture</button>
+          </div>
+        </header>
+
+        <!-- Innovation Spotlight Container -->
+        <div class="innovation-display-grid">
+          
+          <div class="inno-media-wrapper reveal-fade">
+            <img src="assets/images/innovation/innovation-aero.jpg" alt="Porsche Active Aerodynamics rear wing swan neck mount" class="inno-image" id="inno-img" loading="lazy">
+            <div class="inno-overlay">
+              <span class="inno-hud-label" id="inno-hud">PAA SYSTEM ACTIVE</span>
+            </div>
+          </div>
+
+          <div class="inno-details reveal-up">
+            <span class="inno-subtitle" id="inno-category">AERODYNAMIC DEVELOPMENT</span>
+            <h3 class="inno-heading" id="inno-title">Porsche Active Aerodynamics (PAA)</h3>
+            <p class="inno-description" id="inno-desc">
+              Aerodynamics is the art of balancing high top-speed efficiency with downforce in cornering. PAA uses continuously variable cooling air flaps in the front apron, an extendable rear spoiler with multiple deployment angles, and an airbrake function that shortens braking distances from high speeds.
+            </p>
+
+            <!-- Technical Key Metric List -->
+            <ul class="inno-metrics-list" id="inno-metrics">
+              <li>
+                <strong class="metric-strong">Swan-Neck Wing:</strong> Generates downforce on the lower surface with uninterrupted airflow.
+              </li>
+              <li>
+                <strong class="metric-strong">Active Air Flaps:</strong> Close at high speed to lower drag coefficient (\(c_d\)) down to 0.25.
+              </li>
+              <li>
+                <strong class="metric-strong">Downforce at 285 km/h:</strong> Up to 860 kg on GT-series competition models.
+              </li>
+            </ul>
+
+            <div class="inno-action-bar">
+              <span class="inno-source-tag">Verified Porsche Motorsport R&D</span>
+              <a href="#models" class="btn btn-outline-light">View Aerodynamic Models</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION G: INTERACTIVE MODEL EXPLORER -->
+    <section class="section explorer-section light-theme" id="explorer" aria-labelledby="explorer-heading">
+      <div class="container">
+        
+        <header class="section-header text-center">
+          <span class="section-label">INTERACTIVE SHOWROOM</span>
+          <h2 class="section-title" id="explorer-heading">EXPLORE VEHICLE SPECIFICATIONS.</h2>
+          <p class="section-intro">
+            Select a Porsche model to inspect its technical character, factory performance specifications, and engineering credentials in detail.
+          </p>
+
+          <!-- Model Switcher Selector -->
+          <div class="explorer-selector-row" role="tablist" aria-label="Select Porsche Model for Showroom">
+            <button type="button" class="explorer-btn active" role="tab" aria-selected="true" data-explorer-id="911">
+              911 Carrera GTS
+            </button>
+            <button type="button" class="explorer-btn" role="tab" aria-selected="false" data-explorer-id="taycan">
+              Taycan Turbo S
+            </button>
+            <button type="button" class="explorer-btn" role="tab" aria-selected="false" data-explorer-id="718">
+              718 Cayman GT4 RS
+            </button>
+            <button type="button" class="explorer-btn" role="tab" aria-selected="false" data-explorer-id="panamera">
+              Panamera Turbo E-Hybrid
+            </button>
+            <button type="button" class="explorer-btn" role="tab" aria-selected="false" data-explorer-id="macan">
+              Macan Turbo Electric
+            </button>
+          </div>
+        </header>
+
+        <!-- Main Explorer Presentation Frame -->
+        <div class="explorer-stage" id="explorer-stage">
+          
+          <div class="explorer-car-display">
+            <div class="explorer-image-box">
+              <img src="assets/images/models/model-911.jpg" alt="Porsche 911 Carrera GTS shown in interactive showroom" class="explorer-main-image" id="explorer-img">
+              <div class="explorer-badge" id="explorer-badge">T-HYBRID PERFORMANCE</div>
+            </div>
+
+            <!-- Authentic Color Preset Accent Switcher -->
+            <div class="color-palette-bar" aria-label="Editorial Colorway Inspirations">
+              <span class="palette-label">Colorways:</span>
+              <button type="button" class="color-dot active" style="--swatch: #D5001C;" data-color="Guards Red" title="Guards Red" aria-label="Select Guards Red"></button>
+              <button type="button" class="color-dot" style="--swatch: #A3A6A8;" data-color="GT Silver Metallic" title="GT Silver Metallic" aria-label="Select GT Silver Metallic"></button>
+              <button type="button" class="color-dot" style="--swatch: #0B2545;" data-color="Gentian Blue Metallic" title="Gentian Blue Metallic" aria-label="Select Gentian Blue Metallic"></button>
+              <button type="button" class="color-dot" style="--swatch: #171718;" data-color="Jet Black Metallic" title="Jet Black Metallic" aria-label="Select Jet Black Metallic"></button>
+              <button type="button" class="color-dot" style="--swatch: #F4D03F;" data-color="Racing Yellow" title="Racing Yellow" aria-label="Select Racing Yellow"></button>
+              <span class="color-name-display" id="color-name">Guards Red</span>
+            </div>
+          </div>
+
+          <!-- Explorer Technical Data Pane -->
+          <div class="explorer-specs-pane">
+            <div class="specs-header">
+              <div class="specs-crest-row">
+                <img src="assets/images/icons/porsche-crest.png" alt="" class="specs-crest-mini" aria-hidden="true">
+                <span class="specs-family" id="explorer-family">THE ICONIC 911 COUPE</span>
+              </div>
+              <h3 class="specs-model-title" id="explorer-title">Porsche 911 Carrera GTS</h3>
+              <p class="specs-summary" id="explorer-summary">
+                Featuring the groundbreaking 3.6-liter boxer T-Hybrid system with electric exhaust gas turbocharger and integrated permanent magnet motor within the PDK transmission.
+              </p>
+            </div>
+
+            <!-- Dynamic Telemetry Specs Grid -->
+            <div class="telemetry-grid">
+              
+              <div class="telemetry-card">
+                <div class="telemetry-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="telemetry-info">
+                  <span class="telemetry-label">0–100 km/h</span>
+                  <span class="telemetry-value" id="spec-accel">3.0 s</span>
+                  <span class="telemetry-sub">with Sport Chrono</span>
+                </div>
+              </div>
+
+              <div class="telemetry-card">
+                <div class="telemetry-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                  </svg>
+                </div>
+                <div class="telemetry-info">
+                  <span class="telemetry-label">System Power</span>
+                  <span class="telemetry-value" id="spec-power">398 kW / 541 PS</span>
+                  <span class="telemetry-sub">Combined Output</span>
+                </div>
+              </div>
+
+              <div class="telemetry-card">
+                <div class="telemetry-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                  </svg>
+                </div>
+                <div class="telemetry-info">
+                  <span class="telemetry-label">Top Track Velocity</span>
+                  <span class="telemetry-value" id="spec-speed">312 km/h</span>
+                  <span class="telemetry-sub">Official Track Test</span>
+                </div>
+              </div>
+
+              <div class="telemetry-card">
+                <div class="telemetry-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div class="telemetry-info">
+                  <span class="telemetry-label">Drivetrain & Shift</span>
+                  <span class="telemetry-value" id="spec-drive">8-speed PDK / RWD</span>
+                  <span class="telemetry-sub">Dual-Clutch Transmission</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Interactive Action Row -->
+            <div class="specs-actions">
+              <a href="#contact" class="btn btn-primary">
+                <span>Inquire About Model</span>
+                <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <button type="button" class="btn btn-outline" id="btn-sound-toggle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon" aria-hidden="true">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                </svg>
+                <span>Acoustic Profile</span>
+              </button>
+            </div>
+            <p class="specs-disclaimer">Verified manufacturer technical figures for European / International standard models.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION H: IMAGE GALLERY & ACCESSIBLE LIGHTBOX -->
+    <section class="section gallery-section dark-theme" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        
+        <header class="section-header text-center">
+          <span class="section-label">CURATED AUTOMOTIVE PHOTOGRAPHY</span>
+          <h2 class="section-title text-light" id="gallery-heading">THE POETRY OF PRECISION.</h2>
+          <p class="section-intro text-muted">
+            Explore fine-art automotive photography showcasing exterior aerodynamics, cockpit ergonomics, carbon ceramic engineering, and trackside drama.
+          </p>
+
+          <!-- Gallery Filter Buttons -->
+          <div class="gallery-filter-bar" role="tablist" aria-label="Gallery Image Filters">
+            <button type="button" class="gallery-filter-btn active" data-filter="all" role="tab" aria-selected="true">All Perspectives</button>
+            <button type="button" class="gallery-filter-btn" data-filter="exterior" role="tab" aria-selected="false">Exterior & Aero</button>
+            <button type="button" class="gallery-filter-btn" data-filter="interior" role="tab" aria-selected="false">Cockpit & Interior</button>
+            <button type="button" class="gallery-filter-btn" data-filter="track" role="tab" aria-selected="false">Motorsport & Track</button>
+          </div>
+        </header>
+
+        <!-- Editorial Bento / Masonry Gallery Grid -->
+        <div class="gallery-grid" id="gallery-container">
+          
+          <!-- ITEM 1: Rear Light Strip (Wide) -->
+          <figure class="gallery-item item-wide" data-category="exterior" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Continuous LED rear light bar at dusk">
+            <img src="assets/images/gallery/gallery-1.jpg" alt="Porsche continuous LED rear light strip illuminating across muscular rear arches at dusk" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">EXTERIOR SIGNATURE</span>
+              <h3 class="gallery-caption-title">Continuous LED Light Bar</h3>
+              <p class="gallery-caption-sub">The unmistakable night-time graphic across the sculpted rear.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+          <!-- ITEM 2: Cockpit Focus -->
+          <figure class="gallery-item" data-category="interior" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Driver cockpit with Sport Chrono stopwatch">
+            <img src="assets/images/gallery/gallery-2.jpg" alt="Driver-centric cockpit showing analog-digital Sport Chrono instrument and race-derived steering wheel" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">INTERIOR CRAFTSMANSHIP</span>
+              <h3 class="gallery-caption-title">Sport Chrono Dial</h3>
+              <p class="gallery-caption-sub">Precision timekeeping mounted at the top of the dashboard.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+          <!-- ITEM 3: GT3 RS on Track -->
+          <figure class="gallery-item" data-category="track" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Porsche 911 GT3 RS on racetrack apex">
+            <img src="assets/images/gallery/gallery-3.jpg" alt="Porsche 911 GT3 RS attacking a high-speed apex with swan-neck rear wing" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">MOTORSPORT APEX</span>
+              <h3 class="gallery-caption-title">Apex Precision</h3>
+              <p class="gallery-caption-sub">Developed in Flacht for maximum mechanical grip and downforce.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+          <!-- ITEM 4: 911 Guards Red Studio Profile -->
+          <figure class="gallery-item" data-category="exterior" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Porsche 911 profile in Guards Red">
+            <img src="assets/images/gallery/gallery-4.jpg" alt="Porsche 911 sports car in iconic Guards Red under focused studio illumination" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">HERITAGE COLOR</span>
+              <h3 class="gallery-caption-title">Guards Red Pure Silhouette</h3>
+              <p class="gallery-caption-sub">An iconic motorsport hue celebrated since the early 1970s.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+          <!-- ITEM 5: PCCB Ceramic Brake Disc & Center Lock Wheel -->
+          <figure class="gallery-item" data-category="track" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Carbon ceramic brake disc and yellow caliper">
+            <img src="assets/images/gallery/gallery-5.jpg" alt="Carbon ceramic cross-drilled brake disc with bright yellow Porsche monobloc caliper and center-lock forged alloy wheel" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">BRAKING TECHNOLOGY</span>
+              <h3 class="gallery-caption-title">PCCB Ceramic Composite</h3>
+              <p class="gallery-caption-sub">50% weight reduction in unsprung mass with zero thermal fade.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+          <!-- ITEM 6: Taycan Front Aerodynamics -->
+          <figure class="gallery-item" data-category="exterior" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Taycan electric sports saloon front aerodynamics">
+            <img src="assets/images/gallery/gallery-6.jpg" alt="Porsche Taycan sports saloon front three-quarters showcasing matrix LED four-point headlights and air curtains" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">AERO ARCHITECTURE</span>
+              <h3 class="gallery-caption-title">Taycan Air Curtains</h3>
+              <p class="gallery-caption-sub">Guided airflow through the wheel arches minimizing turbulence.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+          <!-- ITEM 7: Matrix LED Headlamp Detail -->
+          <figure class="gallery-item" data-category="exterior" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Four-point Matrix LED headlight design">
+            <img src="assets/images/gallery/gallery-7.jpg" alt="High-resolution close-up of Porsche four-point daytime running LED matrix headlights" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">LIGHT ARCHITECTURE</span>
+              <h3 class="gallery-caption-title">Four-Point Matrix LED</h3>
+              <p class="gallery-caption-sub">The unmistakable optical signature of modern Porsche models.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+          <!-- ITEM 8: Classic & Modern Heritage Contrast -->
+          <figure class="gallery-item item-tall" data-category="track" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View large image: Porsche classic lineage through generations">
+            <img src="assets/images/gallery/gallery-8.jpg" alt="Porsche air-cooled classic 911 alongside modern water-cooled generation displaying continuous lineage" class="gallery-thumbnail" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">TIMELESS LINEAGE</span>
+              <h3 class="gallery-caption-title">Continuous Evolution</h3>
+              <p class="gallery-caption-sub">Every generation builds upon the triumphs and lessons of the past.</p>
+              <span class="gallery-zoom-icon" aria-hidden="true">&plus;</span>
+            </div>
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACCESSIBLE LIGHTBOX MODAL DIALOG -->
+    <div class="lightbox-overlay" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Full-screen image viewer" aria-hidden="true">
+      <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+      
+      <div class="lightbox-dialog-window">
+        <!-- Close Button -->
+        <button type="button" class="lightbox-btn lightbox-close" id="lightbox-close" aria-label="Close image viewer (Press Escape)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <!-- Previous Button -->
+        <button type="button" class="lightbox-btn lightbox-prev" id="lightbox-prev" aria-label="View previous image (Left Arrow Key)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <!-- Image Presentation Frame -->
+        <div class="lightbox-content-box">
+          <img src="" alt="" class="lightbox-hero-img" id="lightbox-img">
+          
+          <div class="lightbox-meta-bar">
+            <div class="lightbox-text-col">
+              <span class="lightbox-tag" id="lightbox-tag">EXTERIOR SIGNATURE</span>
+              <h3 class="lightbox-title" id="lightbox-title">Image Title</h3>
+              <p class="lightbox-description" id="lightbox-desc">Detailed photographic description</p>
+            </div>
+            <div class="lightbox-counter" id="lightbox-counter" aria-live="polite">1 / 8</div>
+          </div>
+        </div>
+
+        <!-- Next Button -->
+        <button type="button" class="lightbox-btn lightbox-next" id="lightbox-next" aria-label="View next image (Right Arrow Key)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- SECTION I: CONTACT OR NEWSLETTER -->
+    <section class="section contact-section light-theme" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        
+        <div class="contact-editorial-card reveal-up">
+          <div class="contact-header text-center">
+            <img src="assets/images/icons/porsche-crest.png" alt="Porsche Crest" class="contact-crest-img reveal-fade" aria-hidden="true">
+            <span class="section-label">THE PORSCHE EXPERIENCE</span>
+            <h2 class="section-title" id="contact-heading">STAY AT THE FOREFRONT OF PERFORMANCE.</h2>
+            <p class="contact-subtitle">
+              Receive curated editorial stories, motorsport archives, exclusive model reveal briefings, and invitations to track-day experiences.
+            </p>
+          </div>
+
+          <!-- Newsletter Form (Vanilla JS Handled) -->
+          <form class="newsletter-form" id="newsletter-form" novalidate aria-label="Newsletter Subscription Form">
+            <div class="form-row">
+              <div class="input-field-wrapper">
+                <label for="subscriber-email" class="visually-hidden">Your Email Address</label>
+                <div class="input-with-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="field-icon" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <input 
+                    type="email" 
+                    id="subscriber-email" 
+                    name="email" 
+                    placeholder="Enter your email address (e.g. driver@porsche.com)" 
+                    class="form-input" 
+                    required 
+                    autocomplete="email"
+                    aria-describedby="form-feedback form-disclaimer"
+                  >
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                <span>Subscribe</span>
+                <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Dynamic Feedback Alert (Success / Error) -->
+            <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite" hidden></div>
+
+            <!-- Honest Demonstration Notice -->
+            <p class="form-disclaimer" id="form-disclaimer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="disclaimer-icon" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span><strong>Student Project Demonstration:</strong> Form validation operates entirely in client-side Vanilla JavaScript. No real emails are harvested or transmitted.</span>
+            </p>
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SECTION J: FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      
+      <!-- Footer Main Columns -->
+      <div class="footer-top-grid">
+        
+        <div class="footer-col footer-brand-col">
+          <img src="assets/images/icons/porsche-crest.png" alt="Porsche Crest" class="footer-crest-img">
+          <span class="footer-brand-title">PORSCHE</span>
+          <p class="footer-tagline">
+            DR. ING. H.C. F. PORSCHE AG &mdash; THE ART OF DRIVING.
+          </p>
+          <p class="footer-manifesto">
+            Dedicated to automotive excellence, lightweight balance, driver involvement, and unbroken sports car lineage since 1948.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Vehicle Families</h3>
+          <ul class="footer-links">
+            <li><a href="#models">Porsche 911 Series</a></li>
+            <li><a href="#models">Porsche Taycan Electric</a></li>
+            <li><a href="#models">Porsche 718 Cayman & Boxster</a></li>
+            <li><a href="#models">Porsche Panamera Saloon</a></li>
+            <li><a href="#models">Porsche Cayenne SUV</a></li>
+            <li><a href="#models">Porsche Macan Electric</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Experience & Archive</h3>
+          <ul class="footer-links">
+            <li><a href="#philosophy">Design Philosophy</a></li>
+            <li><a href="#heritage">Historical Milestones</a></li>
+            <li><a href="#heritage">24 Hours of Le Mans Heritage</a></li>
+            <li><a href="#innovation">Porsche Active Aerodynamics</a></li>
+            <li><a href="#innovation">800V E-Performance</a></li>
+            <li><a href="#gallery">Editorial Imagery Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Official Resources</h3>
+          <ul class="footer-links">
+            <li><a href="https://www.porsche.com" target="_blank" rel="noopener noreferrer">Porsche Official Global &nearr;</a></li>
+            <li><a href="https://www.porsche.com/stories/design/" target="_blank" rel="noopener noreferrer">Porsche Design Stories &nearr;</a></li>
+            <li><a href="https://newsroom.porsche.com" target="_blank" rel="noopener noreferrer">Porsche Newsroom Press &nearr;</a></li>
+            <li><a href="https://www.porsche.com/museum" target="_blank" rel="noopener noreferrer">Porsche Museum Stuttgart &nearr;</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Divider Line -->
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <!-- Legal & Student Workshop Disclaimer -->
+      <div class="footer-legal-bar">
+        <div class="legal-text-group">
+          <p class="disclaimer-note">
+            <strong>Educational Project Notice:</strong> This website is an independent college student assignment developed exclusively for a Web Designing Workshop to demonstrate HTML5, CSS3, and vanilla JavaScript proficiency.
+          </p>
+          <p class="trademark-note">
+            All trademarks, model designations, logos, and emblems (including PORSCHE, 911, Carrera, Taycan, Targa, and the Porsche Crest) are the registered intellectual property of Dr. Ing. h.c. F. Porsche AG. This site is not affiliated with, authorized, or sponsored by Porsche AG.
+          </p>
+        </div>
+
+        <div class="footer-meta-bottom">
+          <span class="copyright-text">&copy; <span id="current-year">2026</span> College Web Designing Workshop. All rights reserved.</span>
+          <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to top of page">
+            <span>Back to top</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="top-arrow" aria-hidden="true">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Acoustic Profile Audio Modal (Optional Vanilla JS Audio Synthesizer or Modal) -->
+  <div class="sound-modal-overlay" id="sound-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Porsche Acoustic Profile">
+    <div class="sound-modal-card">
+      <button type="button" class="sound-modal-close" id="sound-modal-close" aria-label="Close acoustic profile">
+        &times;
+      </button>
+      <div class="sound-modal-header">
+        <span class="sound-tag">PORSCHE SOUND DESIGN</span>
+        <h3 class="sound-title" id="sound-title">Boxer Flat-Six Acoustic Profile</h3>
+      </div>
+      <p class="sound-description" id="sound-desc">
+        The unmistakable mechanical growl of the boxer flat-six: firing order 1-6-2-4-3-5, producing a resonant acoustic timbre shaped by equal-length exhaust manifolds and active twin bypass valves.
+      </p>
+      
+      <!-- Web Audio API Synthesizer Control -->
+      <div class="sound-synth-controls">
+        <button type="button" class="btn btn-primary" id="btn-play-synth">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon" aria-hidden="true">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          <span id="synth-btn-text">Generate Engine Rev (Web Audio)</span>
+        </button>
+        <span class="synth-note">Synthesized in real-time via Web Audio API harmonics without external audio files.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
